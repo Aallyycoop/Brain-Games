@@ -1,6 +1,5 @@
 import readlineSync from 'readline-sync';
-
-const getRandomNumber = () => Math.round(Math.random() * 100);
+import getRandomNumber from '../getRandomNumber.js';
 
 const isEven = (number) => number % 2 === 0;
 
@@ -15,11 +14,10 @@ const playEven = () => {
   console.log(gameRules);
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const number = getRandomNumber();
+    const number = getRandomNumber(1, 101);
     console.log(`Question: ${number}`);
     const correctAnswer = isEven(number) ? 'yes' : 'no';
     const getUserAnswer = () => String(readlineSync.question('Your answer: '));
-    // return [question, correctAnswer];
     const userAnswer = getUserAnswer();
 
     if (userAnswer === correctAnswer) {
