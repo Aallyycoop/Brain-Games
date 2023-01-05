@@ -2,3 +2,7 @@
 [![Actions Status](https://github.com/Aallyycoop/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Aallyycoop/frontend-project-44/actions)
 
 <a href="https://codeclimate.com/github/Aallyycoop/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/f1c00526e25ff92f09fc/maintainability" /></a>
+
+Asciinema  BRAIN-EVEN:
+
+https://asciinema.org/a/549605
