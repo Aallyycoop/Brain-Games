@@ -6,3 +6,7 @@
 BRAIN-EVEN:
 
 [![asciicast](https://asciinema.org/a/549605.svg)](https://asciinema.org/a/549605)
+
+BRAIN-CALC:
+
+[![asciicast](https://asciinema.org/a/x00oxVEZPWW1FHP9KVPGMD2w9.svg)](https://asciinema.org/a/x00oxVEZPWW1FHP9KVPGMD2w9)
