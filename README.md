@@ -10,3 +10,7 @@ BRAIN-EVEN:
 BRAIN-CALC:
 
 [![asciicast](https://asciinema.org/a/x00oxVEZPWW1FHP9KVPGMD2w9.svg)](https://asciinema.org/a/x00oxVEZPWW1FHP9KVPGMD2w9)
+
+BRAIN-GCD:
+
+[![asciicast](https://asciinema.org/a/dEnHcNYpB4jxVIvwmYChNkTGM.svg)](https://asciinema.org/a/dEnHcNYpB4jxVIvwmYChNkTGM)
