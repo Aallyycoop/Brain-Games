@@ -3,6 +3,6 @@
 
 <a href="https://codeclimate.com/github/Aallyycoop/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/f1c00526e25ff92f09fc/maintainability" /></a>
 
-Asciinema  BRAIN-EVEN:
+BRAIN-EVEN:
 
-https://asciinema.org/a/549605
+[![asciicast](https://asciinema.org/a/549605.svg)](https://asciinema.org/a/549605)
