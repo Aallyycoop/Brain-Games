@@ -3,12 +3,13 @@
 
 <a href="https://codeclimate.com/github/Aallyycoop/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/f1c00526e25ff92f09fc/maintainability" /></a>
 
-## Description:
 ***
+## Description:
 Five arithmetic games.
 
-## Installation:
 ***
+## Installation:
+
 Add dependencies:
 
 ```
@@ -23,8 +24,9 @@ Run game:
 ```
 brain-<game name>
 ```
-## Games:
 ***
+## Games:
+
 #### 1. BRAIN-EVEN:
 
 Check evennes of a number 
