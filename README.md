@@ -18,3 +18,7 @@ BRAIN-GCD:
 BRAIN-PROGRESSION
 
 [![asciicast](https://asciinema.org/a/fWWdGCcwmU7MnrTObfEkqOnUH.svg)](https://asciinema.org/a/fWWdGCcwmU7MnrTObfEkqOnUH)
+
+BRAIN-PRIME
+
+[![asciicast](https://asciinema.org/a/jmvOcxhzOqTNMaCH2Ato08ygb.svg)](https://asciinema.org/a/jmvOcxhzOqTNMaCH2Ato08ygb)
