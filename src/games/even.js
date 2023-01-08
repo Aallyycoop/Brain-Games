@@ -1,12 +1,9 @@
-// import readlineSync from 'readline-sync';
-import play from '../index.js';
+import runTheGame from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
 const isEven = (number) => number % 2 === 0;
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
-
-// const roundsCount = 3;
 
 const startRound = () => {
   const number = getRandomNumber(1, 101);
@@ -15,6 +12,6 @@ const startRound = () => {
   return [question, correctAnswer];
 };
 
-const playEven = () => play(gameRules, startRound);
+const runEven = () => runTheGame(gameRules, startRound);
 
-export default playEven;
+export default runEven;
