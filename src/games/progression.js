@@ -17,8 +17,8 @@ const startRound = () => {
   const length = getRandomNumber(5, 10);
   const step = getRandomNumber(1, 20);
   const progression = getProgression(start, length, step);
-  const hiddenElementIndex = getRandomNumber(5, length - 1);
-  const hiddenElement = progression.splice(hiddenElementIndex, 1, '..').join(' ');
+  const hiddenElementIndex = getRandomNumber(1, length - 1);
+  const hiddenElement = String(progression.splice(hiddenElementIndex, 1, '..'));
   const question = progression.join(' ');
   const correctAnswer = hiddenElement;
   return [question, correctAnswer];
