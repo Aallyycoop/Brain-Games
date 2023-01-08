@@ -1,4 +1,4 @@
-import play from '../index.js';
+import runTheGame from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
 const gameRules = 'What number is missing in the progression?';
@@ -17,14 +17,13 @@ const startRound = () => {
   const length = getRandomNumber(5, 10);
   const step = getRandomNumber(1, 20);
   const progression = getProgression(start, length, step);
-  const indexOfProgression = getRandomNumber(5, length - 1);
-  const removeNumForAnswer = progression.splice(indexOfProgression, 1, '..').join(' ');
-  const progressionForQuestion = progression.join(' ');
-  const question = progressionForQuestion;
-  const correctAnswer = removeNumForAnswer;
+  const hiddenElementIndex = getRandomNumber(5, length - 1);
+  const hiddenElement = progression.splice(hiddenElementIndex, 1, '..').join(' ');
+  const question = progression.join(' ');
+  const correctAnswer = hiddenElement;
   return [question, correctAnswer];
 };
 
-const playProgression = () => play(gameRules, startRound);
+const runProgression = () => runTheGame(gameRules, startRound);
 
-export default playProgression;
+export default runProgression;
