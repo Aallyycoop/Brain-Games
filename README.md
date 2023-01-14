@@ -8,6 +8,10 @@
 Five arithmetic games.
 
 ***
+## System requirements:
+Node.js 13.2.0 or higher
+
+***
 ## Installation:
 
 Add dependencies:
