@@ -7,7 +7,7 @@ const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const startRound = () => {
   const question = getRandomNumber(1, 101);
-  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  const correctAnswer = isEven(question);
   return [question, correctAnswer];
 };
 
