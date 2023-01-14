@@ -1,14 +1,13 @@
 import runTheGame from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-const isEven = (number) => number % 2 === 0;
+const isEven = (number) => (number % 2 === 0 ? 'yes' : 'no');
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const startRound = () => {
-  const number = getRandomNumber(1, 101);
-  const question = number;
-  const correctAnswer = isEven(number) ? 'yes' : 'no';
+  const question = getRandomNumber(1, 101);
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
